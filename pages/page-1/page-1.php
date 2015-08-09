@@ -7,12 +7,12 @@
 		<link rel="stylesheet" href="../../css/skeleton.css">
 		<link rel="stylesheet" href="../../css/theme.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>new-page</title>
+		<title>page-1</title>
 	</head>
 	<body>
 		<div class="container">
 			<div class="row twelve columns">
-				<h1>new page</h1>
+				<h1>page 1</h1>
 				<hr />
 			</div>
 			
@@ -21,7 +21,7 @@
 			</nav>
 			<div id="module-container" class="row twelve columns">
 				<?php
-				foreach (glob("../../modules/new-page/*.html") as $filename)
+				foreach (glob("../../modules/page-1/*.html") as $filename)
 				{
 				    include $filename;
 				}
